@@ -23,6 +23,10 @@
 - Added GOV-001 Document Control and Change Management.
 - Added GLO-001 Project Glossary and contribution guidelines.
 
+### MVP planning — 0.1
+- Added MVP-001 proposing a user-initiated smartphone text-reading workflow as the first bounded prototype.
+- Added mobile framework, OCR, speech, backend, and hardware evaluation criteria; no final technology or hardware selection is claimed.
+
 ### Documentation refinement — version 1.1 updates
 - Refined SRS-001 with 42 proposed software requirements, source categories, acceptance criteria, planned test IDs, and release gates.
 - Expanded RTM-001 to trace 42 software requirements and 10 hardware requirements to needs, architecture, and planned verification.
