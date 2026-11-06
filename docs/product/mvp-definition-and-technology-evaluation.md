@@ -4,10 +4,10 @@
 |---|---|
 | Project | AI Guardian for Blind People |
 | Document ID | MVP-001 |
-| Version | 0.1 |
+| Version | 0.2 |
 | Status | Proposed planning baseline — stakeholder validation and feasibility review pending |
 | Document Type | Product Scope and Technology Evaluation |
-| Related | PID-001, PMP-001, SRS-001, RTM-001, SYS-ARCH-001, ADR-REG-001, AIML-001, HW-001, ICD-001, SAF-001, SEC-001, ACC-001, VVP-001, DATA-001 |
+| Related | PID-001, PMP-001, SRS-001, RTM-001, SYS-ARCH-001, ADR-REG-001, AIML-001, HW-001, ICD-001, SAF-001, SEC-001, ACC-001, VVP-001, DATA-001, ICD-MVP-001, ENG-READY-001 |
 | Prepared | 06 November 2026 |
 
 ## 1. Purpose
@@ -65,7 +65,7 @@ Deferred does not mean permanently rejected. Any scope expansion requires user-n
 
 ## 5. Primary User Workflow
 
-1. User opens the accessible application and chooses or speaks the text-reading task.
+1. User opens the accessible application and selects the text-reading task through a validated accessible control. Voice-command initiation is not assumed in MVP-1; it may be added only if separately validated and approved.
 2. Application announces that the camera is needed and requests permission if not already granted.
 3. Application gives a clear capture-ready status.
 4. User explicitly initiates a still-image capture.
