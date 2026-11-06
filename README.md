@@ -4,8 +4,8 @@ An assistive technology project exploring accessible, AI-powered support for peo
 
 ## Project status
 
-**Status:** Initiation and documentation baseline  
-**Current phase:** Project discovery, requirements definition, and feasibility planning  
+**Status:** Refined engineering documentation baseline; stakeholder validation pending  
+**Current phase:** Requirements engineering, architecture refinement, and feasibility planning  
 **Repository:** [TheMShahid/AI-Guardian-for-Blind-People](https://github.com/TheMShahid/AI-Guardian-for-Blind-People)
 
 The project is intended to evolve into a tested, integrated assistive solution spanning accessible user software, AI capabilities, and a wearable or portable device. Scope and technical choices remain provisional until validated through user research, requirements analysis, prototyping, and safety testing.
@@ -60,4 +60,4 @@ The current authorized phase is documentation and project definition only. Appli
 
 ## Repository status
 
-This repository contains initial planning documents. Requirements, architecture, technology selection, hardware, and release plans will be revised as evidence becomes available. Document status must be read alongside its assumptions and open questions.
+The repository contains controlled planning artifacts, including a refined candidate software requirements baseline, requirements traceability, logical architecture, AI/hardware strategy, safety/privacy/accessibility plans, and a planned verification register. Requirements and design choices are not yet stakeholder-approved, implemented, tested, or validated. Read each document's status, assumptions, and open decisions before relying on it.
