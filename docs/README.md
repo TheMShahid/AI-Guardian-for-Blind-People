@@ -2,8 +2,8 @@
 
 | Domain | Document | ID | Version | Status |
 |---|---|---|---:|---|
-| Product planning | [Use Case Specification and User Journeys](product/use-case-specification-and-user-journeys.md) | UC-001 | 0.1 | Proposed MVP workflows; user validation pending |
-| Product planning | [MVP Definition and Technology Evaluation](product/mvp-definition-and-technology-evaluation.md) | MVP-001 | 0.1 | Proposed MVP; user validation and feasibility pending |
+| Product planning | [Use Case Specification and User Journeys](product/use-case-specification-and-user-journeys.md) | UC-001 | 0.2 | Proposed MVP workflows; user validation pending |
+| Product planning | [MVP Definition and Technology Evaluation](product/mvp-definition-and-technology-evaluation.md) | MVP-001 | 0.2 | Proposed MVP; user validation and feasibility pending |
 | Initiation | [Project Initiation Document](project-initiation/project-initiation-document.md) | PID-001 | 1.0 | Approved project initiation baseline |
 | Management | [Project Management Plan](project-management/project-management-plan.md) | PMP-001 | 1.0 | Initial planning baseline |
 | Management | [Engineering Preparation and Readiness Assessment](project-management/engineering-preparation-and-readiness-assessment.md) | ENG-READY-001 | 0.1 | Consolidated assessment; implementation not authorized |
@@ -13,7 +13,7 @@
 | Architecture | [Architecture Decision Register](architecture/architecture-decision-records.md) | ADR-REG-001 | 1.1 | Initial decisions; open decisions remain |
 | AI/ML | [AI/ML Strategy and Evaluation Plan](ai-ml/ai-ml-strategy-and-evaluation-plan.md) | AIML-001 | 1.1 | Evaluation strategy; no model selected |
 | Hardware | [Hardware Requirements and Prototype Plan](hardware/hardware-requirements-and-prototype-plan.md) | HW-001 | 1.1 | Preliminary requirements; components/form factor not selected |
-| Interfaces | [Interface Control Document](interfaces/interface-control-document.md) | ICD-001 | 1.1 | Logical system interface contract; protocol and schemas TBD |
+| Interfaces | [Interface Control Document](interfaces/interface-control-document.md) | ICD-001 | 1.2 | Logical system interface contract; protocol and schemas TBD |
 | Interfaces | [MVP Text-Reading Interface Specification](interfaces/mvp-text-reading-interface-specification.md) | ICD-MVP-001 | 0.1 | Proposed MVP-specific logical contract |
 | Safety | [Safety and Risk Management Plan](safety/safety-and-risk-management-plan.md) | SAF-001 | 1.1 | Initial hazard register refined; specialist review required |
 | Security | [Security and Privacy Plan](security-privacy/security-and-privacy-plan.md) | SEC-001 | 1.1 | Control baseline refined; threat model pending |
