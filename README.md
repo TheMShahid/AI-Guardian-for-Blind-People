@@ -35,7 +35,7 @@ Key controlled documents:
 - [Software Requirements Specification — SRS-001](docs/requirements/software-requirements-specification.md)
 - [Requirements Traceability Matrix — RTM-001](docs/requirements/requirements-traceability-matrix.md)
 - [System Architecture — SYS-ARCH-001](docs/architecture/system-architecture.md)
-- [Architecture Decision Records — ADR-001](docs/architecture/architecture-decision-records.md)
+- [Architecture Decision Register — ADR-REG-001](docs/architecture/architecture-decision-records.md)
 - [AI/ML Strategy — AIML-001](docs/ai-ml/ai-ml-strategy-and-evaluation-plan.md)
 - [Hardware Plan — HW-001](docs/hardware/hardware-requirements-and-prototype-plan.md)
 - [Interface Control Document — ICD-001](docs/interfaces/interface-control-document.md)
