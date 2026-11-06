@@ -48,6 +48,12 @@
 - Refined USER-001 conceptual status, limitations, and safe-use guidance.
 - Updated documentation index and readiness descriptions.
 
+### Consolidated engineering preparation — 0.1
+- Added ICD-MVP-001 with the MVP capture, OCR, result-validation, speech, cancellation, error, privacy, and interface-verification contracts.
+- Added ENG-READY-001 consolidating MVP-to-requirement allocation, deliverable status, technology decisions, privacy lifecycle, OCR evaluation, safety/accessibility controls, verification evidence, and implementation authorization gates.
+- Updated the documentation index and reading order.
+- Confirmed that implementation remains unauthorized; no application code, AI model implementation, firmware, hardware construction, user evaluation, or test execution is claimed.
+
 ## Current phase boundary
 
 Documentation and engineering planning only. No application code, AI model implementation, firmware, or physical hardware construction is included in this phase. Planned test cases are not executed test evidence.
