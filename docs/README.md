@@ -7,7 +7,7 @@
 | Requirements | [Software Requirements Specification](requirements/software-requirements-specification.md) | SRS-001 | Validation pending |
 | Requirements | [Requirements Traceability Matrix](requirements/requirements-traceability-matrix.md) | RTM-001 | Initial mapping |
 | Architecture | [System Architecture](architecture/system-architecture.md) | SYS-ARCH-001 | Conceptual; validation pending |
-| Architecture | [Architecture Decision Records](architecture/architecture-decision-records.md) | ADR-001 | Initial decisions |
+| Architecture | [Architecture Decision Register](architecture/architecture-decision-records.md) | ADR-REG-001 | Initial decisions |
 | AI/ML | [AI/ML Strategy and Evaluation Plan](ai-ml/ai-ml-strategy-and-evaluation-plan.md) | AIML-001 | No model selected |
 | Hardware | [Hardware Requirements and Prototype Plan](hardware/hardware-requirements-and-prototype-plan.md) | HW-001 | Components not selected |
 | Interfaces | [Interface Control Document](interfaces/interface-control-document.md) | ICD-001 | Protocol TBD |
@@ -26,7 +26,7 @@
 1. PID-001 for project purpose and boundaries.
 2. PMP-001 for governance and lifecycle.
 3. SRS-001 and RTM-001 for needs and requirements.
-4. SYS-ARCH-001, ADR-001, and ICD-001 for system structure and interfaces.
+4. SYS-ARCH-001, ADR-REG-001, and ICD-001 for system structure and interfaces.
 5. SAF-001, SEC-001, ACC-001, DATA-001, and VVP-001 for assurance.
 6. AIML-001 and HW-001 for AI and physical-device feasibility.
 7. OPS-001 and USER-001 for future operations and user-facing communication.
