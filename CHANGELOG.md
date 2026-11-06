@@ -52,7 +52,7 @@
 - Added ICD-MVP-001 with the MVP capture, OCR, result-validation, speech, cancellation, error, privacy, and interface-verification contracts.
 - Added ENG-READY-001 consolidating MVP-to-requirement allocation, deliverable status, technology decisions, privacy lifecycle, OCR evaluation, safety/accessibility controls, verification evidence, and implementation authorization gates.
 - Updated the documentation index and reading order.
-- Confirmed that implementation remains unauthorized; no application code, AI model implementation, firmware, hardware construction, user evaluation, or test execution is claimed.
+- Clarified MVP-1 task initiation as accessible control-based; voice-command initiation is not assumed without validation.\n- Updated ICD-001, MVP-001, and UC-001 cross-references and document versions for consistency.\n- Confirmed that implementation remains unauthorized; no application code, AI model implementation, firmware, hardware construction, user evaluation, or test execution is claimed.
 
 ## Current phase boundary
 
