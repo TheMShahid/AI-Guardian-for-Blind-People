@@ -136,7 +136,9 @@ These are separate from document status. Document status is governed by GOV-001.
 - SRS-001 software requirements traced: 42 (28 functional, 14 non-functional).
 - HW-001 hardware requirements traced: 10.
 - Planned software test identifiers: 42.
+- Draft MVP-specific verification procedures: 14 (VTP-001–VTP-014), mapped to interface scenarios and existing planned requirement tests.
 - Executed test evidence: 0 recorded in this matrix.
+- Procedure readiness: platform-neutral draft; test data, platform configuration, approvals, and execution remain pending.
 - Stakeholder/user validation: pending.
 - Architecture and hardware allocation: preliminary; conditional allocations remain subject to design decisions.
 
@@ -145,4 +147,5 @@ These are separate from document status. Document status is governed by GOV-001.
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | Initial | Initial high-level need-to-requirement mapping. |
-| 1.1 | 2026-11-06 | Added individual software requirement traceability, architecture allocation, hardware cross-links, planned test IDs, evidence rules, and baseline coverage summary. |\n| 1.2 | 2026-11-06 | Added traceability references to the MVP-specific interface and draft verification procedure supplements; clarified that detailed procedures are not executed evidence. |
+| 1.1 | 2026-11-06 | Added individual software requirement traceability, architecture allocation, hardware cross-links, planned test IDs, evidence rules, and baseline coverage summary. |
+| 1.2 | 2026-11-06 | Added traceability references to the MVP-specific interface and draft verification procedure supplements; clarified that detailed procedures are not executed evidence. |
