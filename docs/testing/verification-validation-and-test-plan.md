@@ -87,7 +87,28 @@ All entries are reserved planned test identifiers corresponding to SRS-001 and R
 | TC-NFR-013 | NFR-013 | Measure memory, compute, thermal behavior, and battery on proposed configurations. | Analysis, test |
 | TC-NFR-014 | NFR-014 | Verify AI text cannot overwrite trusted capture, permission, connection, or error state. | Test, inspection |
 
-### 4.1 MVP-1 detailed procedure supplement\n\nThe 14 MVP-specific interface scenarios IF-MVP-001 through IF-MVP-014 are expanded into draft, platform-neutral procedures in [VTP-MVP-001 — MVP-1 Verification Procedure Specification](mvp-verification-procedure-specification.md). These procedures supplement, and do not replace, the 42 requirement-level planned test identifiers in this document. They remain **not executed** and are not execution-ready until the target platform, OCR/TTS configuration, approved corpus, test environment, and safety/privacy/accessibility reviews are complete.\n\n| Procedure ID | Interface scenario | Primary planned test mapping | Current status |\n|---|---|---|---|\n| VTP-001 | Permission denied | TC-FR-007, TC-FR-008 | Draft; not executed |\n| VTP-002 | Capture without explicit user action | TC-FR-009 | Draft; not executed |\n| VTP-003 | Valid capture and OCR success | TC-FR-009–011 | Draft; not executed |\n| VTP-004 | Wrong session/request identifier | TC-FR-018 | Draft; not executed |\n| VTP-005 | OCR no-text response | TC-FR-010, TC-FR-019 | Draft; not executed |\n| VTP-006 | Partial OCR response | TC-FR-010, TC-FR-019 | Draft; not executed |\n| VTP-007 | Cancel during capture | TC-FR-004 | Draft; not executed |\n| VTP-008 | Cancel during OCR | TC-FR-004, TC-FR-018 | Draft; not executed |\n| VTP-009 | Cancel during speech | TC-FR-004, TC-FR-005 | Draft; not executed |\n| VTP-010 | Timeout followed by late OCR success | TC-FR-016, TC-FR-018 | Draft; not executed |\n| VTP-011 | Duplicate retry command | TC-FR-017 | Draft; not executed |\n| VTP-012 | Malformed OCR response | TC-FR-016, TC-FR-018 | Draft; not executed |\n| VTP-013 | Media reference after session closure | TC-FR-022, TC-FR-023, TC-FR-028; TC-NFR-006/007 | Draft; not executed |\n| VTP-014 | Diagnostic privacy inspection | TC-FR-028, TC-NFR-007 | Draft; not executed |\n\n## 5. Hardware verification planning
+### 4.1 MVP-1 detailed procedure supplement
+
+The 14 MVP-specific interface scenarios IF-MVP-001 through IF-MVP-014 are expanded into draft, platform-neutral procedures in [VTP-MVP-001 — MVP-1 Verification Procedure Specification](mvp-verification-procedure-specification.md). These procedures supplement, and do not replace, the 42 requirement-level planned test identifiers in this document. They remain **not executed** and are not execution-ready until the target platform, OCR/TTS configuration, approved corpus, test environment, and safety/privacy/accessibility reviews are complete.
+
+| Procedure ID | Interface scenario | Primary planned test mapping | Current status |
+|---|---|---|---|
+| VTP-001 | Permission denied | TC-FR-007, TC-FR-008 | Draft; not executed |
+| VTP-002 | Capture without explicit user action | TC-FR-009 | Draft; not executed |
+| VTP-003 | Valid capture and OCR success | TC-FR-009–011 | Draft; not executed |
+| VTP-004 | Wrong session/request identifier | TC-FR-018 | Draft; not executed |
+| VTP-005 | OCR no-text response | TC-FR-010, TC-FR-019 | Draft; not executed |
+| VTP-006 | Partial OCR response | TC-FR-010, TC-FR-019 | Draft; not executed |
+| VTP-007 | Cancel during capture | TC-FR-004 | Draft; not executed |
+| VTP-008 | Cancel during OCR | TC-FR-004, TC-FR-018 | Draft; not executed |
+| VTP-009 | Cancel during speech | TC-FR-004, TC-FR-005 | Draft; not executed |
+| VTP-010 | Timeout followed by late OCR success | TC-FR-016, TC-FR-018 | Draft; not executed |
+| VTP-011 | Duplicate retry command | TC-FR-017 | Draft; not executed |
+| VTP-012 | Malformed OCR response | TC-FR-016, TC-FR-018 | Draft; not executed |
+| VTP-013 | Media reference after session closure | TC-FR-022, TC-FR-023, TC-FR-028; TC-NFR-006/007 | Draft; not executed |
+| VTP-014 | Diagnostic privacy inspection | TC-FR-028, TC-NFR-007 | Draft; not executed |
+
+## 5. Hardware verification planning
 
 Hardware test procedures shall be added after component and form-factor selection. At minimum, HW-001 verification shall cover:
 
@@ -165,4 +186,5 @@ Publish requirement coverage, test design/readiness/execution counts, pass/fail/
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | Initial | Test strategy baseline. |
-| 1.1 | 2026-11-06 | Added planned 42-case software test register, hardware verification planning, evidence lifecycle, verification/validation distinction, and explicit release gates. |\n| 1.2 | 2026-11-06 | Linked 14 draft MVP-specific verification procedures and clarified their relationship to the 42 requirement-level planned tests. |
+| 1.1 | 2026-11-06 | Added planned 42-case software test register, hardware verification planning, evidence lifecycle, verification/validation distinction, and explicit release gates. |
+| 1.2 | 2026-11-06 | Linked 14 draft MVP-specific verification procedures and clarified their relationship to the 42 requirement-level planned tests. |
