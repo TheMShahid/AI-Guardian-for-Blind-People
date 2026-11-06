@@ -3,9 +3,9 @@
 | Attribute | Value |
 |---|---|
 | Document ID | RTM-001 |
-| Version | 1.1 |
+| Version | 1.2 |
 | Status | Expanded planned traceability — stakeholder validation and test execution pending |
-| Related | PID-001, SRS-001, SYS-ARCH-001, HW-001, ICD-001, SAF-001, ACC-001, SEC-001, VVP-001 |
+| Related | PID-001, SRS-001, SYS-ARCH-001, HW-001, ICD-001, SAF-001, ACC-001, SEC-001, VVP-001, MVP-001, UC-001, ICD-MVP-001, VTP-MVP-001 |
 
 ## 1. Purpose and interpretation
 
@@ -145,4 +145,4 @@ These are separate from document status. Document status is governed by GOV-001.
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | Initial | Initial high-level need-to-requirement mapping. |
-| 1.1 | 2026-11-06 | Added individual software requirement traceability, architecture allocation, hardware cross-links, planned test IDs, evidence rules, and baseline coverage summary. |
+| 1.1 | 2026-11-06 | Added individual software requirement traceability, architecture allocation, hardware cross-links, planned test IDs, evidence rules, and baseline coverage summary. |\n| 1.2 | 2026-11-06 | Added traceability references to the MVP-specific interface and draft verification procedure supplements; clarified that detailed procedures are not executed evidence. |
