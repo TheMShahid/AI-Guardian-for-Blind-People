@@ -2,6 +2,7 @@
 
 | Domain | Document | ID | Version | Status |
 |---|---|---|---:|---|
+| Product planning | [Use Case Specification and User Journeys](product/use-case-specification-and-user-journeys.md) | UC-001 | 0.1 | Proposed MVP workflows; user validation pending |
 | Product planning | [MVP Definition and Technology Evaluation](product/mvp-definition-and-technology-evaluation.md) | MVP-001 | 0.1 | Proposed MVP; user validation and feasibility pending |
 | Initiation | [Project Initiation Document](project-initiation/project-initiation-document.md) | PID-001 | 1.0 | Approved project initiation baseline |
 | Management | [Project Management Plan](project-management/project-management-plan.md) | PMP-001 | 1.0 | Initial planning baseline |
@@ -25,13 +26,14 @@
 ## Reading order
 
 1. MVP-001 for the proposed first workflow and technology evaluation.
-2. PID-001 for project purpose and boundaries.
-3. PMP-001 and GOV-001 for project governance and document control.
-4. SRS-001 and RTM-001 for candidate requirements and traceability.
-5. SYS-ARCH-001, ADR-REG-001, and ICD-001 for system structure, decisions, and interfaces.
-6. SAF-001, SEC-001, ACC-001, DATA-001, and VVP-001 for assurance.
-7. AIML-001 and HW-001 for AI and physical-device feasibility.
-8. OPS-001 and USER-001 for future operations and user-facing communication.
+2. UC-001 for actors, user journeys, use cases, and failure/recovery scenarios.
+3. PID-001 for project purpose and boundaries.
+4. PMP-001 and GOV-001 for project governance and document control.
+5. SRS-001 and RTM-001 for candidate requirements and traceability.
+6. SYS-ARCH-001, ADR-REG-001, and ICD-001 for system structure, decisions, and interfaces.
+7. SAF-001, SEC-001, ACC-001, DATA-001, and VVP-001 for assurance.
+8. AIML-001 and HW-001 for AI and physical-device feasibility.
+9. OPS-001 and USER-001 for future operations and user-facing communication.
 
 ## Document interpretation
 
