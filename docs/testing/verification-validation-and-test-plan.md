@@ -46,7 +46,7 @@ All entries are reserved planned test identifiers corresponding to SRS-001 and R
 |---|---|---|---|
 | TC-FR-001 | FR-001 | Verify accessible onboarding covers capabilities, limitations, permissions, and safety boundaries. | Inspection, demonstration |
 | TC-FR-002 | FR-002 | Verify only approved and supported tasks are selectable and startable. | Test |
-| TC-FR-003 | FR-003 | Verify supported accessible initiation methods create one session and announce state. | Test, demonstration |
+| TC-FR-003 | FR-003 | Verify MVP-1 accessible-control initiation creates one session and announces state; any later voice-initiation mode requires separate approved scope and test coverage. | Test, demonstration |
 | TC-FR-004 | FR-004 | Verify cancellation stops active work where possible and suppresses late results. | Test |
 | TC-FR-005 | FR-005 | Verify spoken output can be interrupted and stopped. | Test |
 | TC-FR-006 | FR-006 | Verify progress, completion, and failure states are announced accessibly. | Test |
