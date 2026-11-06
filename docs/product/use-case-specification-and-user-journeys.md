@@ -4,10 +4,10 @@
 |---|---|
 | Project | AI Guardian for Blind People |
 | Document ID | UC-001 |
-| Version | 0.1 |
+| Version | 0.2 |
 | Status | Proposed — stakeholder validation pending |
 | Document Type | Use Case Specification |
-| Related | PID-001, PMP-001, MVP-001, SRS-001, RTM-001, SYS-ARCH-001, ICD-001, SAF-001, SEC-001, ACC-001, DATA-001, VVP-001 |
+| Related | PID-001, PMP-001, MVP-001, SRS-001, RTM-001, SYS-ARCH-001, ICD-001, SAF-001, SEC-001, ACC-001, DATA-001, VVP-001, ICD-MVP-001, ENG-READY-001 |
 | Prepared | 06 November 2026 |
 
 ## 1. Purpose and Scope
@@ -422,4 +422,4 @@ Changes to these use cases shall identify affected MVP capabilities, SRS require
 
 | Version | Date | Change |
 |---|---|---|
-| 0.1 | 2026-11-06 | Initial proposed actors, MVP user journey, detailed use cases, state model, failure catalogue, and traceability. |
+| 0.1 | 2026-11-06 | Initial proposed actors, MVP user journey, detailed use cases, state model, failure catalogue, and traceability. |\n| 0.2 | 2026-11-06 | Linked the detailed MVP interface and readiness documents; clarified voice-command initiation is not assumed for MVP-1. |
