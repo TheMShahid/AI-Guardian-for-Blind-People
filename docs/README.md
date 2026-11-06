@@ -18,7 +18,8 @@
 | Safety | [Safety and Risk Management Plan](safety/safety-and-risk-management-plan.md) | SAF-001 | 1.1 | Initial hazard register refined; specialist review required |
 | Security | [Security and Privacy Plan](security-privacy/security-and-privacy-plan.md) | SEC-001 | 1.1 | Control baseline refined; threat model pending |
 | Accessibility | [Accessibility and Inclusive Design](accessibility/accessibility-and-inclusive-design.md) | ACC-001 | 1.1 | Design baseline refined; user validation pending |
-| Verification | [Verification, Validation, and Test Plan](testing/verification-validation-and-test-plan.md) | VVP-001 | 1.2 | 42 planned requirement-level tests; execution pending |\n| Verification | [MVP-1 Verification Procedure Specification](testing/mvp-verification-procedure-specification.md) | VTP-MVP-001 | 0.1 | 14 draft MVP procedures; platform and execution readiness pending |
+| Verification | [Verification, Validation, and Test Plan](testing/verification-validation-and-test-plan.md) | VVP-001 | 1.2 | 42 planned requirement-level tests; execution pending |
+| Verification | [MVP-1 Verification Procedure Specification](testing/mvp-verification-procedure-specification.md) | VTP-MVP-001 | 0.1 | 14 draft MVP procedures; platform and execution readiness pending |
 | Operations | [Operations and Maintenance Plan](deployment/operations-and-maintenance-plan.md) | OPS-001 | 1.1 | Future operating model refined; deployment not selected |
 | User documentation | [Product Concept and Preliminary User Guide](user-guides/product-concept-and-user-guide.md) | USER-001 | 1.1 | Conceptual only; not product instructions |
 | Research | [Research Data and Ethics Plan](research/research-data-and-ethics-plan.md) | DATA-001 | 1.1 | Governance plan refined; approvals pending |
