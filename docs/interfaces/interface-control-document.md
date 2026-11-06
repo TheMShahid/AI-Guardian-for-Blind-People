@@ -3,15 +3,15 @@
 | Attribute | Value |
 |---|---|
 | Document ID | ICD-001 |
-| Version | 1.1 |
+| Version | 1.2 |
 | Status | Refined logical interface contract; protocol and schemas TBD |
-| Related | SYS-ARCH-001, SRS-001, RTM-001, HW-001, SEC-001, VVP-001 |
+| Related | SYS-ARCH-001, SRS-001, RTM-001, HW-001, SEC-001, VVP-001, ICD-MVP-001 |
 
 ## 1. Purpose and scope
 
 Define logical interface responsibilities and minimum contract semantics among the accessible client, orchestration, capture, AI adapters, device gateway, privacy/data manager, diagnostics, and external services. Wire formats, endpoints, transport, authentication implementation, and payload limits are not finalized. This document is not an API implementation specification.
 
-## 2. Interface inventory
+## 1.1 MVP-specific interface refinement\n\nFor the proposed smartphone text-reading MVP, the detailed capture, OCR, result-validation, speech, cancellation, and error contracts are specified in **ICD-MVP-001**. That document supplements this system-wide interface inventory and does not supersede interfaces IF-001 through IF-008. If an MVP-specific detail appears inconsistent with this system-level contract, the discrepancy must be resolved through GOV-001 before implementation.\n\n## 2. Interface inventory
 
 | ID | Producer | Consumer | Purpose | Related requirements |
 |---|---|---|---|---|
@@ -97,4 +97,4 @@ Transport, authentication mechanism, encryption configuration, media transfer st
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | Initial | Initial logical interface inventory and principles. |
-| 1.1 | 2026-11-06 | Added requirement trace links, request/response contract semantics, cancellation/stale-response handling, privacy/security controls, and compatibility expectations. |
+| 1.1 | 2026-11-06 | Added requirement trace links, request/response contract semantics, cancellation/stale-response handling, privacy/security controls, and compatibility expectations. |\n| 1.2 | 2026-11-06 | Linked the MVP-specific interface supplement and clarified document authority. |
