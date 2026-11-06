@@ -136,4 +136,5 @@ No release scope is approved by this document alone. The project owner and relev
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | Initial | Initial candidate functional and non-functional requirements. |
-| 1.1 | 2026-11-06 | Added requirement sources, status lifecycle, objective acceptance criteria, planned test IDs, explicit hardware allocation, and release gates; clarified candidate scope and unresolved thresholds. |\n| 1.2 | 2026-11-06 | Clarified MVP-1 session initiation as accessible-control based; future voice-command initiation requires separate scope approval and verification. |
+| 1.1 | 2026-11-06 | Added requirement sources, status lifecycle, objective acceptance criteria, planned test IDs, explicit hardware allocation, and release gates; clarified candidate scope and unresolved thresholds. |
+| 1.2 | 2026-11-06 | Clarified MVP-1 session initiation as accessible-control based; future voice-command initiation requires separate scope approval and verification. |
