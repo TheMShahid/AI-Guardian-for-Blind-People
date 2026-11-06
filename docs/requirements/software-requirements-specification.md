@@ -3,9 +3,9 @@
 | Attribute | Value |
 |---|---|
 | Document ID | SRS-001 |
-| Version | 1.1 |
+| Version | 1.2 |
 | Status | Refined candidate baseline — stakeholder validation pending |
-| Related | PID-001, SYS-ARCH-001, ADR-REG-001, SAF-001, ACC-001, SEC-001, HW-001, VVP-001, RTM-001 |
+| Related | PID-001, SYS-ARCH-001, ADR-REG-001, SAF-001, ACC-001, SEC-001, HW-001, VVP-001, RTM-001, MVP-001, UC-001, ICD-MVP-001, VTP-MVP-001 |
 
 ## 1. Purpose and status
 
@@ -46,7 +46,7 @@ All requirements below have status **Proposed**. Test IDs are planned identifier
 |---|---|---:|---|---|---|---|
 | FR-001 | The software shall provide an accessible first-use explanation of supported capabilities, limitations, permissions, and safety boundaries. | P0 | ACC, SAF, UN | I,D | A first-time user can reach and replay the explanation without sight; review confirms all four topics are covered. | TC-FR-001 |
 | FR-002 | The software shall allow the user to select only assistance tasks identified as supported in the current release. | P0 | UN, SAF | T | Every displayed task maps to an approved capability; unsupported tasks cannot be started. | TC-FR-002 |
-| FR-003 | The software shall allow the user to initiate an assistance session through an accessible control or supported voice interaction. | P0 | UN, ACC | T,D | Each supported initiation method starts one identifiable session and announces its state. | TC-FR-003 |
+| FR-003 | The software shall allow the user to initiate an assistance session through an accessible control. Additional initiation modes, including voice interaction, shall be included only when separately scoped, validated, and approved for a release. | P0 | UN, ACC | T,D | MVP-1 initiation through an accessible control starts one identifiable session and announces its state; no voice-command initiation is assumed in MVP-1. Any later initiation mode has its own approved scope and verification. | TC-FR-003 |
 | FR-004 | The software shall allow the user to cancel an active capture or assistance request. | P0 | SAF, UN | T | Cancellation stops further capture/processing where technically possible, announces cancellation, and does not present a late result as current. | TC-FR-004 |
 | FR-005 | The software shall allow the user to interrupt and stop spoken output. | P0 | ACC, UN | T | A user action stops current speech within the approved interaction threshold; the control remains available during playback. | TC-FR-005 |
 | FR-006 | The software shall provide accessible progress, completion, and failure status for each assistance session. | P0 | ACC, UN | T | Screen-reader/audio checks confirm each state is announced once in a distinguishable and understandable form. | TC-FR-006 |
@@ -136,4 +136,4 @@ No release scope is approved by this document alone. The project owner and relev
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | Initial | Initial candidate functional and non-functional requirements. |
-| 1.1 | 2026-11-06 | Added requirement sources, status lifecycle, objective acceptance criteria, planned test IDs, explicit hardware allocation, and release gates; clarified candidate scope and unresolved thresholds. |
+| 1.1 | 2026-11-06 | Added requirement sources, status lifecycle, objective acceptance criteria, planned test IDs, explicit hardware allocation, and release gates; clarified candidate scope and unresolved thresholds. |\n| 1.2 | 2026-11-06 | Clarified MVP-1 session initiation as accessible-control based; future voice-command initiation requires separate scope approval and verification. |
