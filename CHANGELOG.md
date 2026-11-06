@@ -52,8 +52,16 @@
 - Added ICD-MVP-001 with the MVP capture, OCR, result-validation, speech, cancellation, error, privacy, and interface-verification contracts.
 - Added ENG-READY-001 consolidating MVP-to-requirement allocation, deliverable status, technology decisions, privacy lifecycle, OCR evaluation, safety/accessibility controls, verification evidence, and implementation authorization gates.
 - Updated the documentation index and reading order.
-- Clarified MVP-1 task initiation as accessible control-based; voice-command initiation is not assumed without validation.\n- Updated ICD-001, MVP-001, and UC-001 cross-references and document versions for consistency.\n- Confirmed that implementation remains unauthorized; no application code, AI model implementation, firmware, hardware construction, user evaluation, or test execution is claimed.
+- Clarified MVP-1 task initiation as accessible control-based; voice-command initiation is not assumed without validation.
+- Updated ICD-001, MVP-001, and UC-001 cross-references and document versions for consistency.
+- Confirmed that implementation remains unauthorized; no application code, AI model implementation, firmware, hardware construction, user evaluation, or test execution is claimed.
 
-### Verification preparation refinement — 0.1\n- Added VTP-MVP-001 with 14 platform-neutral draft procedures covering permission, explicit capture, OCR success/no-text/partial output, stale/malformed responses, cancellation, retry idempotency, transient media lifecycle, and diagnostic privacy.\n- Updated SRS-001 to clarify that MVP-1 uses accessible-control initiation; voice-command initiation requires separate scope approval and verification.\n- Updated VVP-001 and RTM-001 to link the 14 draft procedures to the existing 42 requirement-level planned tests; no tests were executed.\n- Updated ENG-READY-001 and the documentation index to reflect the verification procedure draft and remaining execution-readiness gates.\n\n## Current phase boundary
+### Verification preparation refinement — 0.1
+- Added VTP-MVP-001 with 14 platform-neutral draft procedures covering permission, explicit capture, OCR success/no-text/partial output, stale/malformed responses, cancellation, retry idempotency, transient media lifecycle, and diagnostic privacy.
+- Updated SRS-001 to clarify that MVP-1 uses accessible-control initiation; voice-command initiation requires separate scope approval and verification.
+- Updated VVP-001 and RTM-001 to link the 14 draft procedures to the existing 42 requirement-level planned tests; no tests were executed.
+- Updated ENG-READY-001 and the documentation index to reflect the verification procedure draft and remaining execution-readiness gates.
+
+## Current phase boundary
 
 Documentation and engineering planning only. No application code, AI model implementation, firmware, or physical hardware construction is included in this phase. Planned test cases are not executed test evidence.
