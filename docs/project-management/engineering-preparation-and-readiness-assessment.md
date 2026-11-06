@@ -69,7 +69,8 @@ A broader product vision must not be confused with the MVP implementation bounda
 | Accessibility | ACC-001 | Design baseline; user validation pending | Evaluate non-visual task completion with intended users |
 | Research/ethics | DATA-001 | Governance plan; approvals pending | Determine whether evaluation is research, obtain applicable approvals/consent |
 | Verification | VVP-001 | 42 planned software tests; not executed; 14 MVP-specific draft procedures linked | Complete platform-specific test data, fixtures, thresholds, review, and execution readiness |
-| MVP verification procedures | VTP-MVP-001 | Draft 14-case procedure set; not executed | Complete selected-platform details, corpus, fixtures, and review before execution |\n| Operations | OPS-001 | Future model; deployment not selected | Define only after local/remote processing decision |
+| MVP verification procedures | VTP-MVP-001 | Draft 14-case procedure set; not executed | Complete selected-platform details, corpus, fixtures, and review before execution |
+| Operations | OPS-001 | Future model; deployment not selected | Define only after local/remote processing decision |
 | User guidance | USER-001 | Conceptual guide only | Create MVP-specific instructions after workflow validation |
 | Governance | GOV-001 | Active process | Maintain version, review, change, and evidence controls |
 
@@ -240,4 +241,5 @@ These activities may require external participants, specialist review, test devi
 
 | Version | Date | Change |
 |---|---|---|
-| 0.1 | 2026-11-06 | Consolidated product/MVP allocation, engineering deliverables, readiness gates, technology decisions, privacy lifecycle, OCR evaluation, safety/accessibility controls, verification evidence, and implementation authorization criteria. |\n| 0.2 | 2026-11-06 | Updated requirement/interface versions, recorded 14 draft MVP verification procedures, and refined the verification-readiness assessment without claiming test execution. |
+| 0.1 | 2026-11-06 | Consolidated product/MVP allocation, engineering deliverables, readiness gates, technology decisions, privacy lifecycle, OCR evaluation, safety/accessibility controls, verification evidence, and implementation authorization criteria. |
+| 0.2 | 2026-11-06 | Updated requirement/interface versions, recorded 14 draft MVP verification procedures, and refined the verification-readiness assessment without claiming test execution. |
