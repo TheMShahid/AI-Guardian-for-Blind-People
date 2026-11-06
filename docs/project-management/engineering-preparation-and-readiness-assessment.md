@@ -4,7 +4,7 @@
 |---|---|
 | Project | AI Guardian for Blind People |
 | Document ID | ENG-READY-001 |
-| Version | 0.1 |
+| Version | 0.2 |
 | Status | Consolidated planning assessment — implementation authorization not granted |
 | Document Type | Engineering Readiness and Gap Assessment |
 | Related | PID-001, PMP-001, GOV-001, MVP-001, UC-001, SRS-001, RTM-001, SYS-ARCH-001, ADR-REG-001, ICD-001, ICD-MVP-001, AIML-001, HW-001, SAF-001, SEC-001, ACC-001, DATA-001, VVP-001, OPS-001, USER-001 |
@@ -54,13 +54,13 @@ A broader product vision must not be confused with the MVP implementation bounda
 |---|---|---|---|
 | Project initiation | PID-001 | Existing baseline | Reconfirm scope and ownership during review |
 | Project management | PMP-001 | Initial plan | Rebaseline schedule/resources after feasibility and scope review |
-| Product/MVP | MVP-001 | Proposed 0.1 | Validate user value and workflow |
-| User journeys | UC-001 | Proposed 0.1 | Review interaction and terminology with intended users |
-| Software requirements | SRS-001 | Candidate 1.1; requirements proposed | Approve only after source, scope, and acceptance review |
-| Traceability | RTM-001 | Planned mapping 1.1 | Reconcile final MVP baseline and evidence links |
+| Product/MVP | MVP-001 | Proposed 0.2 | Validate user value and workflow |
+| User journeys | UC-001 | Proposed 0.2 | Review interaction and terminology with intended users |
+| Software requirements | SRS-001 | Candidate 1.2; requirements proposed | Approve only after source, scope, and acceptance review |
+| Traceability | RTM-001 | Planned mapping 1.2 | Reconcile final MVP baseline and evidence links |
 | Logical architecture | SYS-ARCH-001 | Refined 1.1 | Validate allocation and processing route |
 | Architecture decisions | ADR-REG-001 | Open decisions remain | Record evidence-backed choices as ADRs |
-| System interfaces | ICD-001 | Logical 1.1 | Retain system-level contract; align with MVP supplement |
+| System interfaces | ICD-001 | Logical 1.2 | Retain system-level contract; align with MVP supplement |
 | MVP interfaces | ICD-MVP-001 | Proposed 0.1 | Review schemas and platform feasibility before implementation |
 | AI/ML strategy | AIML-001 | Evaluation strategy; no model selected | Define OCR benchmark corpus, metrics, language scope, and candidate evaluation |
 | Hardware | HW-001 | Preliminary requirements; no components selected | Keep hardware deferred until phone workflow and user need justify it |
@@ -68,8 +68,8 @@ A broader product vision must not be confused with the MVP implementation bounda
 | Safety | SAF-001 | Initial hazard register; specialist review required | Review hazards and controls for the actual MVP workflow |
 | Accessibility | ACC-001 | Design baseline; user validation pending | Evaluate non-visual task completion with intended users |
 | Research/ethics | DATA-001 | Governance plan; approvals pending | Determine whether evaluation is research, obtain applicable approvals/consent |
-| Verification | VVP-001 | 42 planned software tests; not executed | Write detailed procedures, fixtures, and evidence templates |
-| Operations | OPS-001 | Future model; deployment not selected | Define only after local/remote processing decision |
+| Verification | VVP-001 | 42 planned software tests; not executed; 14 MVP-specific draft procedures linked | Complete platform-specific test data, fixtures, thresholds, review, and execution readiness |
+| MVP verification procedures | VTP-MVP-001 | Draft 14-case procedure set; not executed | Complete selected-platform details, corpus, fixtures, and review before execution |\n| Operations | OPS-001 | Future model; deployment not selected | Define only after local/remote processing decision |
 | User guidance | USER-001 | Conceptual guide only | Create MVP-specific instructions after workflow validation |
 | Governance | GOV-001 | Active process | Maintain version, review, change, and evidence controls |
 
@@ -177,7 +177,7 @@ Recruitment, participant characteristics, consent, compensation, accessibility a
 
 ## 10. Verification and evidence management
 
-VVP-001 currently lists 42 planned software test cases. These are identifiers and objectives, not fully authored executable procedures and not test results.
+VVP-001 lists 42 planned software test identifiers. VTP-MVP-001 now expands 14 MVP-specific interface scenarios into platform-neutral draft procedures. These procedures are not execution-ready until platform/engine selection, corpus approval, test fixtures, and assurance reviews are complete. No test execution or pass result is claimed.
 
 Before execution, each test record must contain:
 - Test ID and requirement revision.
@@ -218,7 +218,7 @@ A checked item must point to evidence. This checklist is currently not satisfied
 - OCR quality, response time, battery, memory, and thermal performance are unknown.
 - Exact data deletion behavior across OS caches, backups, and external providers is unverified.
 - Security threat modeling and specialist safety review remain pending.
-- Test cases are planned; no test execution is claimed.
+- VVP-001 contains 42 planned requirement-level test identifiers; VTP-MVP-001 contains 14 draft MVP procedures. None has been executed.
 - Hardware remains deferred and no component procurement is authorized by this document.
 - Applicable legal, regulatory, and research ethics obligations require jurisdiction- and deployment-specific review.
 
@@ -240,4 +240,4 @@ These activities may require external participants, specialist review, test devi
 
 | Version | Date | Change |
 |---|---|---|
-| 0.1 | 2026-11-06 | Consolidated product/MVP allocation, engineering deliverables, readiness gates, technology decisions, privacy lifecycle, OCR evaluation, safety/accessibility controls, verification evidence, and implementation authorization criteria. |
+| 0.1 | 2026-11-06 | Consolidated product/MVP allocation, engineering deliverables, readiness gates, technology decisions, privacy lifecycle, OCR evaluation, safety/accessibility controls, verification evidence, and implementation authorization criteria. |\n| 0.2 | 2026-11-06 | Updated requirement/interface versions, recorded 14 draft MVP verification procedures, and refined the verification-readiness assessment without claiming test execution. |
