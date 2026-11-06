@@ -23,6 +23,10 @@
 - Added GOV-001 Document Control and Change Management.
 - Added GLO-001 Project Glossary and contribution guidelines.
 
+### Use case planning — 0.1
+- Added UC-001 defining proposed MVP actors, primary user journey, detailed use cases, state transitions, failure/recovery behavior, and SRS traceability.
+- Added proposed verification scenarios; no tests or user evaluations are claimed as executed.
+
 ### MVP planning — 0.1
 - Added MVP-001 proposing a user-initiated smartphone text-reading workflow as the first bounded prototype.
 - Added mobile framework, OCR, speech, backend, and hardware evaluation criteria; no final technology or hardware selection is claimed.
