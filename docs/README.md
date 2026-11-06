@@ -6,9 +6,9 @@
 | Product planning | [MVP Definition and Technology Evaluation](product/mvp-definition-and-technology-evaluation.md) | MVP-001 | 0.2 | Proposed MVP; user validation and feasibility pending |
 | Initiation | [Project Initiation Document](project-initiation/project-initiation-document.md) | PID-001 | 1.0 | Approved project initiation baseline |
 | Management | [Project Management Plan](project-management/project-management-plan.md) | PMP-001 | 1.0 | Initial planning baseline |
-| Management | [Engineering Preparation and Readiness Assessment](project-management/engineering-preparation-and-readiness-assessment.md) | ENG-READY-001 | 0.1 | Consolidated assessment; implementation not authorized |
-| Requirements | [Software Requirements Specification](requirements/software-requirements-specification.md) | SRS-001 | 1.1 | Refined candidate baseline; stakeholder validation pending |
-| Requirements | [Requirements Traceability Matrix](requirements/requirements-traceability-matrix.md) | RTM-001 | 1.1 | Expanded planned traceability; test execution pending |
+| Management | [Engineering Preparation and Readiness Assessment](project-management/engineering-preparation-and-readiness-assessment.md) | ENG-READY-001 | 0.2 | Consolidated assessment; implementation not authorized |
+| Requirements | [Software Requirements Specification](requirements/software-requirements-specification.md) | SRS-001 | 1.2 | Refined candidate baseline; stakeholder validation pending |
+| Requirements | [Requirements Traceability Matrix](requirements/requirements-traceability-matrix.md) | RTM-001 | 1.2 | Expanded planned traceability; test execution pending |
 | Architecture | [System Architecture](architecture/system-architecture.md) | SYS-ARCH-001 | 1.1 | Refined logical architecture; design validation pending |
 | Architecture | [Architecture Decision Register](architecture/architecture-decision-records.md) | ADR-REG-001 | 1.1 | Initial decisions; open decisions remain |
 | AI/ML | [AI/ML Strategy and Evaluation Plan](ai-ml/ai-ml-strategy-and-evaluation-plan.md) | AIML-001 | 1.1 | Evaluation strategy; no model selected |
@@ -18,7 +18,7 @@
 | Safety | [Safety and Risk Management Plan](safety/safety-and-risk-management-plan.md) | SAF-001 | 1.1 | Initial hazard register refined; specialist review required |
 | Security | [Security and Privacy Plan](security-privacy/security-and-privacy-plan.md) | SEC-001 | 1.1 | Control baseline refined; threat model pending |
 | Accessibility | [Accessibility and Inclusive Design](accessibility/accessibility-and-inclusive-design.md) | ACC-001 | 1.1 | Design baseline refined; user validation pending |
-| Verification | [Verification, Validation, and Test Plan](testing/verification-validation-and-test-plan.md) | VVP-001 | 1.1 | Planned 42-case software test register; execution pending |
+| Verification | [Verification, Validation, and Test Plan](testing/verification-validation-and-test-plan.md) | VVP-001 | 1.2 | 42 planned requirement-level tests; execution pending |\n| Verification | [MVP-1 Verification Procedure Specification](testing/mvp-verification-procedure-specification.md) | VTP-MVP-001 | 0.1 | 14 draft MVP procedures; platform and execution readiness pending |
 | Operations | [Operations and Maintenance Plan](deployment/operations-and-maintenance-plan.md) | OPS-001 | 1.1 | Future operating model refined; deployment not selected |
 | User documentation | [Product Concept and Preliminary User Guide](user-guides/product-concept-and-user-guide.md) | USER-001 | 1.1 | Conceptual only; not product instructions |
 | Research | [Research Data and Ethics Plan](research/research-data-and-ethics-plan.md) | DATA-001 | 1.1 | Governance plan refined; approvals pending |
