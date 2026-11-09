@@ -4,6 +4,7 @@ from PIL import Image, UnidentifiedImageError
 
 
 MAX_IMAGE_SIZE_MB = 10
+MAX_IMAGE_PIXELS = 10_000_000
 SUPPORTED_FORMATS = ("JPEG", "PNG")
 
 
@@ -39,6 +40,14 @@ def validate_image(image_bytes):
             return {
                 "valid": False,
                 "error": "Only JPEG and PNG images are supported."
+            }
+
+        total_pixels = image.width * image.height
+
+        if total_pixels > MAX_IMAGE_PIXELS:
+            return {
+                "valid": False,
+                "error": "Image exceeds the 10 megapixel limit."
             }
 
         return {
